@@ -1,0 +1,8 @@
+
+POST        /create                         controllers.PasswordController.create
+POST        /createList                     controllers.PasswordController.createList
+PUT         /update                         controllers.PasswordController.update
+DELETE      /delete/:id                     controllers.PasswordController.delete(id)
+GET         /find/:id                       controllers.PasswordController.findById(id)
+GET         /findByName/:name               controllers.PasswordController.findByName(name)
+POST        /upload                         controllers.PasswordController.upload
